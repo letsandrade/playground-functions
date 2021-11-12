@@ -10,15 +10,17 @@ function compareTrue(p1, p2) {
 
 // Desafio 2
 function calcArea(base, height) {
-  let area = ((base * height)/2)
+  let area = ((base * height)/2);
   return area
 };
 console.log(calcArea(10,50))
 
-// Desafio 3
-function splitSentence() {
-  // seu código aqui
-}
+// Desafio 3 - ref: https://www.w3schools.com/jsref/jsref_split.asp
+function splitSentence(texto) {
+  let arrPalavras = texto.split(" ");
+  return arrPalavras
+};
+console.log(splitSentence("go trybe"))
 
 // Desafio 4
 function concatName() {
