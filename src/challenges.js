@@ -23,8 +23,8 @@ function splitSentence(texto) {
 console.log(splitSentence("go trybe"))
 
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(arrNomes) {
+  
 }
 
 // Desafio 5
