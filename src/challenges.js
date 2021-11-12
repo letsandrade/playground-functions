@@ -24,7 +24,7 @@ console.log(splitSentence("go trybe"))
 
 // Desafio 4 ref: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array
 function concatName(arrNomes) {
-  let strNome = (arrNomes[0] + "," + arrNomes[arrNomes.length - 1])
+  let strNome = (arrNomes[arrNomes.length - 1] + "," + arrNomes[0])
   return strNome
 };
 arrTest = ["foguete", "não", "tem", "ré"]
@@ -32,7 +32,7 @@ console.log(concatName(arrTest))
 
 // Desafio 5
 function footballPoints() {
-  // seu código aqui
+  
 }
 
 // Desafio 6
