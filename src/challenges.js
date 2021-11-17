@@ -24,16 +24,18 @@ console.log(splitSentence("go trybe"))
 
 // Desafio 4 ref: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array
 function concatName(arrNomes) {
-  let strNome = (arrNomes[arrNomes.length - 1] + "," + arrNomes[0])
+  let strNome = (arrNomes[arrNomes.length - 1] + "," + arrNomes[0]);
   return strNome
 };
 arrTest = ["foguete", "não", "tem", "ré"]
 console.log(concatName(arrTest))
 
 // Desafio 5
-function footballPoints() {
-  
-}
+function footballPoints(wins, ties) {
+  let pontos = ((wins*3)+(ties));
+  return pontos
+};
+
 
 // Desafio 6
 function highestCount() {
