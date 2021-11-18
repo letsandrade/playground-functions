@@ -51,16 +51,25 @@ function highestCount(arrNumeros) {
 //console.log(highestCount(arrTest2))
 
 // Desafio 7
-function catAndMouse() {
-  // seu código aqui
+function catAndMouse(mouse, cat1, cat2) {
+  let distCat1 = ((cat1) - (mouse));
+  let distCat2 = ((cat2) - (mouse));
+  if (distCat1 < distCat2) {
+    return "cat1"
+  } else if (distCat1 > distCat2) {
+    return "cat2"
+  } else {
+    return "os gatos trombam e o rato foge"
+  }
 }
+//console.log(catAndMouse(2, 5, 4))
 
 // Desafio 8
 function fizzBuzz(arrNumeros2) {
   let arrResultado = [];
   for (let i = 0; i < arrNumeros2.length; i++) {
     if (arrNumeros2[i] % 3 === 0 && arrNumeros2[i] % 5 === 0) {
-       arrResultado.push("fizzbuzz")
+       arrResultado.push("fizzBuzz")
     } else if (arrNumeros2[i] % 5 === 0) {
       arrResultado.push("buzz")
     } else if (arrNumeros2[i] % 3 === 0) {
@@ -87,7 +96,7 @@ function encode(strP1) {
   return resultado
   
 }
-console.log(encode("hi there!"));
+//console.log(encode("hi there!"));
 
 function decode(strP2) {
   let resultado2 = strP2.replace(/1/g, "a");
@@ -99,7 +108,7 @@ function decode(strP2) {
   
   return resultado2
 }
-console.log(decode("h3 th2r2!"));
+//console.log(decode("h3 th2r2!"));
 
 module.exports = {
   calcArea,
