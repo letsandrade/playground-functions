@@ -50,19 +50,19 @@ function highestCount(arrNumeros) {
 //arrTest2 = [9, 1, 2, 3, 9, 5, 7]
 //console.log(highestCount(arrTest2))
 
-// Desafio 7
+// Desafio 7 ref: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/abs
 function catAndMouse(mouse, cat1, cat2) {
-  let distCat1 = ((cat1) - (mouse));
-  let distCat2 = ((cat2) - (mouse));
+  let distCat1 = Math.abs(cat1 - mouse);
+  let distCat2 = Math.abs(cat2 - mouse);
   if (distCat1 < distCat2) {
     return "cat1"
   } else if (distCat1 > distCat2) {
     return "cat2"
-  } else {
+  } else if (distCat1 === distCat2) {
     return "os gatos trombam e o rato foge"
   }
 }
-//console.log(catAndMouse(2, 5, 4))
+//console.log(catAndMouse(1, 0, 2))
 
 // Desafio 8
 function fizzBuzz(arrNumeros2) {
