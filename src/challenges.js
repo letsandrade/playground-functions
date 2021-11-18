@@ -89,8 +89,15 @@ function encode(strP1) {
 }
 console.log(encode("hi there!"));
 
-function decode() {
-  // seu código aqui
+function decode(strp2) {
+  let resultado2 = strP2.replace(/1/g, "a");
+  resultado2 = resultado2.replace(/2/g, "e");
+  resultado2 = resultado2.replace(/3/g, "i");
+  resultado2 = resultado2.replace(/4/g, "o");
+  resultado2 = resultado2.replace(/5/g, "u");
+
+  
+  return resultado2
 }
 
 module.exports = {
