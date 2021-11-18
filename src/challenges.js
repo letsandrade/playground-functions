@@ -50,9 +50,6 @@ function highestCount(arrNumeros) {
 //arrTest2 = [9, 1, 2, 3, 9, 5, 7]
 //console.log(highestCount(arrTest2))
 
-//function getMaxOfArray(arrNumeros) {
- // return Math.max.apply(null, arrNumeros);}
-
 // Desafio 7
 function catAndMouse() {
   // seu código aqui
@@ -74,13 +71,24 @@ function fizzBuzz(arrNumeros2) {
   }
   return arrResultado
 }
-let arrTest3 = [2, 15, 7, 9, 45]
-console.log(fizzBuzz(arrTest3));
+//let arrTest3 = [2, 15, 7, 9, 45]
+//console.log(fizzBuzz(arrTest3));
 
 // Desafio 9
-function encode() {
-  // seu código aqui
+function encode(strP1) {
+  
+  let resultado = strP1.replace(/a/g, "1");
+  resultado = resultado.replace(/e/g, "2");
+  resultado = resultado.replace(/i/g, "3");
+  resultado = resultado.replace(/o/g, "4");
+  resultado = resultado.replace(/u/g, "5");
+
+  
+  return resultado
+  
 }
+console.log(encode("hi there!"));
+
 function decode() {
   // seu código aqui
 }
