@@ -89,7 +89,7 @@ function encode(strP1) {
 }
 console.log(encode("hi there!"));
 
-function decode(strp2) {
+function decode(strP2) {
   let resultado2 = strP2.replace(/1/g, "a");
   resultado2 = resultado2.replace(/2/g, "e");
   resultado2 = resultado2.replace(/3/g, "i");
@@ -99,6 +99,7 @@ function decode(strp2) {
   
   return resultado2
 }
+console.log(decode("h3 th2r2!"));
 
 module.exports = {
   calcArea,
