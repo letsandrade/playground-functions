@@ -83,7 +83,8 @@ function fizzBuzz(arrNumeros2) {
 let arrTest3 = [2, 15, 7, 9, 45]
 console.log(fizzBuzz(arrTest3));
 
-// Desafio 9
+// Desafio 9 ref=https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_Expressions
+//https://www.w3schools.com/jsref/jsref_replace.asp
 function encode(strP1) {
   
   let resultado = strP1.replace(/a/g, "1");
