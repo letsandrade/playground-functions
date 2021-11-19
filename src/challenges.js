@@ -80,8 +80,8 @@ function fizzBuzz(arrNumeros2) {
   }
   return arrResultado
 }
-//let arrTest3 = [2, 15, 7, 9, 45]
-//console.log(fizzBuzz(arrTest3));
+let arrTest3 = [2, 15, 7, 9, 45]
+console.log(fizzBuzz(arrTest3));
 
 // Desafio 9
 function encode(strP1) {
