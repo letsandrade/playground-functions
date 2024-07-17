@@ -17,13 +17,13 @@ This project is a simple one, there are only 2 files, filled with utility functi
 1. Clone this repository:
 
    ```sh
-   git clone https://github.com/yourusername/utility-functions-js.git
+   git clone https://github.com/yourusername/playground-functions.git
    ```
 
 2. Navigate to the project directory:
 
    ```sh
-   cd utility-functions-js
+   cd playground-functions
    ```
 
 3. Use the functions in your own projects by importing them:
@@ -85,13 +85,13 @@ Este projeto é simples, tem apenas 2 arquivos, contendo funções utilitárias,
 1. Clone este repositório:
 
 ```sh
- git clone https://github.com/seuusuario/utility-functions-js.git
+ git clone https://github.com/seuusuario/playground-functions.git
 ```
 
 2. Navegue até o diretório do projeto:
 
 ```sh
- cd utility-functions-js
+ cd playground-functions
 ```
 
 3. Use as funções em seus próprios projetos importando-as:
